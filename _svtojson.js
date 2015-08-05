@@ -28,3 +28,5 @@ var _sv2json = (function() {
         return convert(data, delimiter);
     }
 })();
+
+module.exports = _sv2json;

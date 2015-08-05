@@ -1,0 +1,22 @@
+{
+  "name": "_sv2json",
+  "version": "0.0.1",
+  "description": "A tool that allows one to convert files delimited by any particular character or break into JSON (such as CSV or TSV files)",
+  "main": "_svtojson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gist.github.com:6827d1d764a4d95e8736.git"
+  },
+  "keywords": [
+    "csv",
+    "tsv",
+    "json",
+    "conversion",
+    "converter"
+  ],
+  "author": "Krish Dholakiya <krishna.dholakiya@gmail.com>",
+  "license": "MIT"
+}
