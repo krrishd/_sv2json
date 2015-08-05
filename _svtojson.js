@@ -4,6 +4,8 @@
 *  @param {String} data (should be in CSV/TSV/etc format)
 *  @param {String} delimiter (TSV: '\t', CSV: ',') (defaults to CSV)
 *  @returns {Object} json
+*
+*  @author: gist.github.com/krrishd
 */
 
 var _sv2json = (function() {
