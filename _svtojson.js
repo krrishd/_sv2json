@@ -6,7 +6,7 @@
 *  @returns {Object} json
 */
 
-var nsv2json = (function() {
+var _sv2json = (function() {
     function convert(data, delimiter) {
         var json = [];
         var d = data.split('\n');
