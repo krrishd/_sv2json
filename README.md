@@ -9,13 +9,13 @@ For example, it allows you to convert CSV or TSV (tab separated values) into JSO
 First, install _sv2json to your project:
 
 ```bash
-$ npm install _sv2json --save
+$ npm install sv2json --save
 ```
 
 Then, include it in your script/project:
 
 ```javascript
-var _sv2json = require('_sv2json');
+var _sv2json = require('sv2json');
 ```
 
 You can then use it as such:
