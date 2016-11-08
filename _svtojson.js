@@ -8,16 +8,16 @@
 *  @author: gist.github.com/krrishd
 */
 
-var _sv2json = (function() {
+let _sv2json = (() => {
     function convert(data, delimiter) {
-        var json = [];
-        var d = data.split('\n');
-        var keys = d[0].split(delimiter || ',');
+        let json = [];
+        let d = data.split('\n');
+        let keys = d[0].split(delimiter || ',');
         d = d.splice(1);
-        d.forEach(function(data) {
-            var keyVal = data.split(delimiter || ',');
-            var obj = {};
-            keys.forEach(function(keyData, n) {
+        d.forEach(data => {
+            let keyVal = data.split(delimiter || ',');
+            let obj = {};
+            keys.forEach((keyData, n) => {
                 obj[keyData] = keyVal[n];
             });
             json.push(obj);
